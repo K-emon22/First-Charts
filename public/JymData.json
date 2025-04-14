@@ -1,0 +1,110 @@
+[
+    {
+      "id": "GYM123",
+      "name": "Fitness Hub",
+      "location": "Dhaka, Bangladesh",
+      "monthlyFees": "2000/per month",
+      "features": ["24/7 Access", "Personal Trainers", "Cardio Equipment"],
+      "quality": "normal",
+      "description": "Affordable and convenient with 24/7 access and personal training support."
+    },
+    {
+      "id": "GYM124",
+      "name": "PowerFit Gym",
+      "location": "Chittagong, Bangladesh",
+      "monthlyFees": "2200/per month",
+      "features": ["Free Weights", "Yoga Classes", "Sauna Room"],
+      "quality": "medium",
+      "description": "Balanced gym with wellness options like sauna and yoga for a relaxed fitness experience."
+    },
+    {
+      "id": "GYM125",
+      "name": "MuscleForge",
+      "location": "Sylhet, Bangladesh",
+      "monthlyFees": "1800/per month",
+      "features": ["24/7 Access", "Personal Trainers", "Cardio Equipment"],
+      "quality": "normal",
+      "description": "Budget-friendly choice offering round-the-clock access and cardio facilities."
+    },
+    {
+      "id": "GYM126",
+      "name": "FitZone",
+      "location": "Rajshahi, Bangladesh",
+      "monthlyFees": "2500/per month",
+      "features": ["CrossFit Training", "Personal Trainers", "Massage Therapy"],
+      "quality": "premium",
+      "description": "Premium gym with CrossFit, massage, and personal coaching for serious fitness goals."
+    },
+    {
+      "id": "GYM127",
+      "name": "Flex Gym",
+      "location": "Khulna, Bangladesh",
+      "monthlyFees": "2100/per month",
+      "features": ["Free Weights", "24/7 Access", "Cardio Equipment"],
+      "quality": "medium",
+      "description": "Solid gym option for weightlifting and cardio with all-day access."
+    },
+    {
+      "id": "GYM128",
+      "name": "The Gym Center",
+      "location": "Barisal, Bangladesh",
+      "monthlyFees": "2300/per month",
+      "features": ["Sauna Room", "Personal Trainers", "Group Classes"],
+      "quality": "medium",
+      "description": "Modern gym with group sessions, personal training, and sauna for recovery."
+    },
+    {
+      "id": "GYM129",
+      "name": "Iron Core",
+      "location": "Mymensingh, Bangladesh",
+      "monthlyFees": "2400/per month",
+      "features": ["Free Weights", "24/7 Access", "CrossFit Training"],
+      "quality": "premium",
+      "description": "Advanced training facility with CrossFit and flexible access hours."
+    },
+    {
+      "id": "GYM130",
+      "name": "ZenFit",
+      "location": "Narayanganj, Bangladesh",
+      "monthlyFees": "2000/per month",
+      "features": ["Yoga Classes", "Personal Trainers", "Cardio Equipment"],
+      "quality": "normal",
+      "description": "Calm and affordable space ideal for yoga and general fitness."
+    },
+    {
+      "id": "GYM131",
+      "name": "BodyFit",
+      "location": "Comilla, Bangladesh",
+      "monthlyFees": "2200/per month",
+      "features": ["24/7 Access", "Group Classes", "Cardio Equipment"],
+      "quality": "medium",
+      "description": "Well-equipped facility with flexible access and group workout vibes."
+    },
+    {
+      "id": "GYM132",
+      "name": "NextGen Fitness",
+      "location": "Rajshahi, Bangladesh",
+      "monthlyFees": "2500/per month",
+      "features": ["CrossFit Training", "Personal Trainers", "Sauna Room"],
+      "quality": "premium",
+      "description": "Top-tier fitness with a mix of strength, coaching, and relaxation."
+    },
+    {
+      "id": "GYM133",
+      "name": "Titan Gym",
+      "location": "Gazipur, Bangladesh",
+      "monthlyFees": "1900/per month",
+      "features": ["Cardio Equipment", "Free Weights", "Yoga Classes "],
+      "quality": "normal",
+      "description": "Great value gym offering essential cardio and strength training tools."
+    },
+    {
+      "id": "GYM134",
+      "name": "AlphaFit",
+      "location": "Jessore, Bangladesh",
+      "monthlyFees": "2600/per month",
+      "features": ["CrossFit Training", "Sauna Room", "Massage Therapy"],
+      "quality": "premium",
+      "description": "Elite-level gym experience with focus on strength, recovery, and wellness."
+    }
+  ]
