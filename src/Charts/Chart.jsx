@@ -132,7 +132,7 @@ const CustomTooltip = ({active, payload}) => {
     const student = payload[0].payload;
 
     return (
-      <div className="bg-[rgba(96,165,250,0.3)]   p-3 rounded-md ">
+      <div className="bg-[rgba(96,165,250,0.3)]  border p-3  rounded-md ">
         <h1 className="font-bold text-center">{student.name}</h1>
         <p>
           <span className="font-semibold text-start">Result:</span>{" "}
@@ -147,7 +147,8 @@ const CustomTooltip = ({active, payload}) => {
           {student.chemistry}
         </p>
         <p>
-          <span className="font-semibold text-start">Math:</span> {student.math}
+          <span className="font-semibold  text-start">Math:</span>{" "}
+          {student.math}
         </p>
         <p>
           <span className="font-semibold text-start">Total Marks:</span>{" "}
@@ -158,20 +159,35 @@ const CustomTooltip = ({active, payload}) => {
           {student.averageMarks}
         </h1>
         {student.averageMarks < 33 ? (
-  <h1 className="font-bold text-red-600  text-center underline italic mt-2"> N/A </h1>
-) : student.averageMarks <= 40 ? (
-  <h1 className=" font-bold text-center underline italic mt-2">Grade:  D</h1>
-) : student.averageMarks <= 49 ? (
-  <h1 className=" font-bold text-center underline italic mt-2">Grade:  C</h1>
-) : student.averageMarks <= 59 ? (
-  <h1 className=" font-bold text-center underline italic mt-2">Grade:  B</h1>
-) : student.averageMarks <= 69 ? (
-  <h1 className=" font-bold text-center underline italic mt-2">Grade:  A-</h1>
-) : student.averageMarks <= 79 ? (
-  <h1 className=" font-bold text-center underline italic mt-2">Grade:  A</h1>
-) : (
-  <h1 className=" font-bold text-center underline italic mt-2">Grade:  A+</h1>
-)}
+          <h1 className="font-bold   text-center underline italic mt-2">
+            {" "}
+            Grade: <span className="text-red-600 ">N/A </span>
+          </h1>
+        ) : student.averageMarks <= 40 ? (
+          <h1 className=" font-bold text-center underline italic mt-2">
+            Grade: D
+          </h1>
+        ) : student.averageMarks <= 49 ? (
+          <h1 className=" font-bold text-center underline italic mt-2">
+            Grade: C
+          </h1>
+        ) : student.averageMarks <= 59 ? (
+          <h1 className=" font-bold text-center underline italic mt-2">
+            Grade: B
+          </h1>
+        ) : student.averageMarks <= 69 ? (
+          <h1 className=" font-bold text-center underline italic mt-2">
+            Grade: A-
+          </h1>
+        ) : student.averageMarks <= 79 ? (
+          <h1 className=" font-bold text-center underline italic mt-2">
+            Grade: A
+          </h1>
+        ) : (
+          <h1 className=" font-bold text-center underline italic mt-2">
+            Grade: A+
+          </h1>
+        )}
       </div>
     );
   }
@@ -192,7 +208,12 @@ const Chart = () => {
             <YAxis
               label={{value: "Marks", angle: -90, position: "insideLeft"}}
             />
+
+            {/* for customised tooltip  */}
             <Tooltip content={CustomTooltip} />
+
+            {/* for default tooltip  */}
+            {/* <Tooltip/> */}
           </LineChart>
         </ResponsiveContainer>
       </div>

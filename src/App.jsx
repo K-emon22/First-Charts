@@ -3,7 +3,15 @@ import NavBar from "./components/NavBAr/NavBar";
 import JymFacility from "./JymFacility/JymFacility";
 import { Suspense } from "react";
 import Chart from "./Charts/Chart";
+import axios from "axios";
+import Chart2 from "./Charts/Chart2";
+
 const JymPromise = fetch("JymData.json").then((res) => res.json());
+
+
+const MarksChart=axios.get('StudentData.json')
+
+
 
 function App() {
   return (
@@ -18,7 +26,13 @@ function App() {
         </Suspense>
 
 
+
+       
         <Chart> </Chart>
+
+      
+
+      <Chart2 MarksChart={MarksChart}> </Chart2>
       </main>
     </>
   );
